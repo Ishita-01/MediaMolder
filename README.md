@@ -8,8 +8,8 @@ A modern web application for compressing videos and resizing images for social m
 - **Video Compression:** Reduce file sizes while maintaining quality  
 - **Image Resizing:** Optimize images for Instagram, Twitter, Facebook, and more  
 - **Real-time Previews:** Hover-to-play video previews  
-- **Cloud Storage:** Secure media processing via [Cloudinary](https://cloudinary.com/)  
-- **User Authentication:** Secure login powered by [Clerk](https://clerk.dev/)
+- **Cloud Storage:** Secure media processing via Cloudinary
+- **User Authentication:** Secure login powered by Clerk
 ---
 
 ## Tech Stack
@@ -26,14 +26,14 @@ A modern web application for compressing videos and resizing images for social m
 ### Clone and install
 
 ```bash
-clone https://github.com/yourusername/mediamorph.git
-cd mediamorph
+clone https://github.com/yourusername/MediaMolder.git
+cd MediaMolder
 npm install
 ```
 
 ### Environment setup
 ```bash
-envDATABASE_URL="postgresql://username:password@localhost:5432/mediamorph"
+envDATABASE_URL="postgresql://username:password@localhost:5432/MediaMolder"
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
 CLERK_SECRET_KEY=your_secret
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
