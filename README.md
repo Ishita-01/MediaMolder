@@ -26,7 +26,7 @@ A modern web application for compressing videos and resizing images for social m
 ### Clone and install
 
 ```bash
-clone https://github.com/yourusername/MediaMolder.git
+clone https://github.com/Ishita-01/MediaMolder.git
 cd MediaMolder
 npm install
 ```
